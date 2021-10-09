@@ -1,0 +1,317 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TitleInput component check value changed 1`] = `
+<div
+  style={
+    Object {
+      "--p-frame-offset": "0px",
+      "--top-bar-background": "#00848e",
+      "--top-bar-background-lighter": "#1d9ba4",
+      "--top-bar-color": "#f9fafb",
+    }
+  }
+>
+  Array [
+    "",
+    <div
+      className=""
+    >
+      <div
+        className="Polaris-Labelled__LabelWrapper"
+      >
+        <div
+          className="Polaris-Label"
+        >
+          <label
+            className="Polaris-Label__Text"
+            htmlFor="PolarisTextField1"
+            id="PolarisTextField1Label"
+          >
+            test
+          </label>
+        </div>
+      </div>
+      <div
+        className="Polaris-Connected"
+      >
+        <div
+          className="Polaris-Connected__Item Polaris-Connected__Item--primary"
+          onBlur={[Function]}
+          onFocus={[Function]}
+        >
+          <div
+            className="Polaris-TextField Polaris-TextField--hasValue"
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+          >
+            <input
+              aria-describedby="PolarisTextField1HelpText"
+              aria-invalid={false}
+              aria-labelledby="PolarisTextField1Label"
+              aria-multiline={false}
+              autoFocus={true}
+              className="Polaris-TextField__Input Polaris-TextField__Input--alignLeft"
+              disabled={false}
+              id="PolarisTextField1"
+              maxLength={20}
+              minLength={2}
+              onChange={[Function]}
+              onKeyPress={[Function]}
+              placeholder="入力してください"
+              style={null}
+              value="test001"
+            />
+            <div
+              className="Polaris-TextField__Backdrop"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="Polaris-Labelled__HelpText"
+        id="PolarisTextField1HelpText"
+      >
+        全半角文字title・2～20文字
+      </div>
+    </div>,
+  ]
+</div>
+`;
+
+exports[`TitleInput component check value changed 2`] = `
+<div
+  style={
+    Object {
+      "--p-frame-offset": "0px",
+      "--top-bar-background": "#00848e",
+      "--top-bar-background-lighter": "#1d9ba4",
+      "--top-bar-color": "#f9fafb",
+    }
+  }
+>
+  Array [
+    "",
+    <div
+      className=""
+    >
+      <div
+        className="Polaris-Labelled__LabelWrapper"
+      >
+        <div
+          className="Polaris-Label"
+        >
+          <label
+            className="Polaris-Label__Text"
+            htmlFor="PolarisTextField1"
+            id="PolarisTextField1Label"
+          >
+            test
+          </label>
+        </div>
+      </div>
+      <div
+        className="Polaris-Connected"
+      >
+        <div
+          className="Polaris-Connected__Item Polaris-Connected__Item--primary"
+          onBlur={[Function]}
+          onFocus={[Function]}
+        >
+          <div
+            className="Polaris-TextField Polaris-TextField--hasValue"
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+          >
+            <input
+              aria-describedby="PolarisTextField1HelpText"
+              aria-invalid={false}
+              aria-labelledby="PolarisTextField1Label"
+              aria-multiline={false}
+              autoFocus={true}
+              className="Polaris-TextField__Input Polaris-TextField__Input--alignLeft"
+              disabled={false}
+              id="PolarisTextField1"
+              maxLength={20}
+              minLength={2}
+              onChange={[Function]}
+              onKeyPress={[Function]}
+              placeholder="入力してください"
+              style={null}
+              value="test001"
+            />
+            <div
+              className="Polaris-TextField__Backdrop"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="Polaris-Labelled__HelpText"
+        id="PolarisTextField1HelpText"
+      >
+        全半角文字title・2～20文字
+      </div>
+    </div>,
+  ]
+</div>
+`;
+
+exports[`TitleInput component check value changed 3`] = `
+<div
+  style={
+    Object {
+      "--p-frame-offset": "0px",
+      "--top-bar-background": "#00848e",
+      "--top-bar-background-lighter": "#1d9ba4",
+      "--top-bar-color": "#f9fafb",
+    }
+  }
+>
+  Array [
+    "",
+    <div
+      className=""
+    >
+      <div
+        className="Polaris-Labelled__LabelWrapper"
+      >
+        <div
+          className="Polaris-Label"
+        >
+          <label
+            className="Polaris-Label__Text"
+            htmlFor="PolarisTextField1"
+            id="PolarisTextField1Label"
+          >
+            test
+          </label>
+        </div>
+      </div>
+      <div
+        className="Polaris-Connected"
+      >
+        <div
+          className="Polaris-Connected__Item Polaris-Connected__Item--primary"
+          onBlur={[Function]}
+          onFocus={[Function]}
+        >
+          <div
+            className="Polaris-TextField Polaris-TextField--hasValue"
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+          >
+            <input
+              aria-describedby="PolarisTextField1HelpText"
+              aria-invalid={false}
+              aria-labelledby="PolarisTextField1Label"
+              aria-multiline={false}
+              autoFocus={true}
+              className="Polaris-TextField__Input Polaris-TextField__Input--alignLeft"
+              disabled={false}
+              id="PolarisTextField1"
+              maxLength={20}
+              minLength={2}
+              onChange={[Function]}
+              onKeyPress={[Function]}
+              placeholder="入力してください"
+              style={null}
+              value="test001"
+            />
+            <div
+              className="Polaris-TextField__Backdrop"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="Polaris-Labelled__HelpText"
+        id="PolarisTextField1HelpText"
+      >
+        全半角文字title・2～20文字
+      </div>
+    </div>,
+  ]
+</div>
+`;
+
+exports[`TitleInput component initialling 1`] = `
+<div
+  style={
+    Object {
+      "--p-frame-offset": "0px",
+      "--top-bar-background": "#00848e",
+      "--top-bar-background-lighter": "#1d9ba4",
+      "--top-bar-color": "#f9fafb",
+    }
+  }
+>
+  Array [
+    "",
+    <div
+      className=""
+    >
+      <div
+        className="Polaris-Labelled__LabelWrapper"
+      >
+        <div
+          className="Polaris-Label"
+        >
+          <label
+            className="Polaris-Label__Text"
+            htmlFor="PolarisTextField1"
+            id="PolarisTextField1Label"
+          >
+            test
+          </label>
+        </div>
+      </div>
+      <div
+        className="Polaris-Connected"
+      >
+        <div
+          className="Polaris-Connected__Item Polaris-Connected__Item--primary"
+          onBlur={[Function]}
+          onFocus={[Function]}
+        >
+          <div
+            className="Polaris-TextField Polaris-TextField--hasValue"
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+          >
+            <input
+              aria-describedby="PolarisTextField1HelpText"
+              aria-invalid={false}
+              aria-labelledby="PolarisTextField1Label"
+              aria-multiline={false}
+              autoFocus={true}
+              className="Polaris-TextField__Input Polaris-TextField__Input--alignLeft"
+              disabled={false}
+              id="PolarisTextField1"
+              maxLength={20}
+              minLength={2}
+              onChange={[Function]}
+              onKeyPress={[Function]}
+              placeholder="入力してください"
+              style={null}
+              value="test001"
+            />
+            <div
+              className="Polaris-TextField__Backdrop"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="Polaris-Labelled__HelpText"
+        id="PolarisTextField1HelpText"
+      >
+        全半角文字title・2～20文字
+      </div>
+    </div>,
+  ]
+</div>
+`;

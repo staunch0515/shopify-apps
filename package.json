@@ -1,0 +1,139 @@
+{
+	"name": "test_shop",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "jest",
+		"dev": "node server.js",
+		"build": "next build",
+		"debug": "node server.js",
+		"start": "NODE_ENV=production node server.js",
+		"enzyme": "test -- --coverage --watchAll=false",
+		"watch": "npx nodejs-hot-reload entry=./server.js outDir=./build"
+	},
+	"keywords": [],
+	"author": "staunch",
+	"license": "ISC",
+	"dependencies": {
+		"@shopify/app-bridge-react": "1.20.3",
+		"@shopify/koa-shopify-auth": "3.1.58",
+		"@shopify/koa-shopify-graphql-proxy": "3.3.1",
+		"@shopify/koa-shopify-webhooks": "2.4.2",
+		"@shopify/polaris": "^4.24.0",
+		"@shopify/react-i18n": "^5.0.1",
+		"@stripe/stripe-js": "1.5.0",
+		"@zeit/next-css": "1.0.1",
+		"apollo-boost": "0.4.7",
+		"axios": "0.19.2",
+		"babel-plugin-graphql-js-client-transform": "1.1.1",
+		"base-64": "^0.1.0",
+		"behaviortree": "^2.0.3",
+		"chai": "^4.2.0",
+		"connected-react-router": "6.8.0",
+		"cookie-parser": "1.4.5",
+		"cross-blob": "^1.2.3",
+		"crypto-js": "4.0.0",
+		"date-and-time": "0.13.1",
+		"dotenv": "8.2.0",
+		"ejs": "^3.1.3",
+		"graphql": "15.0.0",
+		"graphql-js-client": "0.12.0",
+		"i18next": "^19.5.0",
+		"isomorphic-fetch": "2.2.1",
+		"jshint": "^2.11.1",
+		"koa": "2.11.0",
+		"koa-body": "4.1.1",
+		"koa-bodyparser": "4.3.0",
+		"koa-router": "8.0.8",
+		"koa-session": "5.13.1",
+		"log-timestamp": "^0.3.0",
+		"moment": "^2.26.0",
+		"next": "9.3.4",
+		"next-redux-wrapper": "5.0.0",
+		"node-fetch": "2.6.0",
+		"node-schedule": "1.3.2",
+		"nodejs-hot-reload": "0.1.2",
+		"openssl-nodejs": "1.0.5",
+		"pg": "8.0.2",
+		"pg-hstore": "2.3.3",
+		"pipes-and-filters": "0.0.4",
+		"react": "^16.13.1",
+		"react-apollo": "3.1.5",
+		"react-bootstrap": "1.0.0",
+		"react-dom": "^16.13.1",
+		"react-i18next": "^11.7.0",
+		"react-redux": "7.2.0",
+		"react-router": "5.1.2",
+		"react-router-dom": "5.1.2",
+		"react-uuid": "^1.0.2",
+		"redux": "4.0.5",
+		"redux-axios-middleware": "4.0.1",
+		"redux-thunk": "2.3.0",
+		"rxjs": "^6.6.2",
+		"sequelize": "5.21.6",
+		"shopify-api-node": "3.3.2",
+		"shortid": "^2.2.15",
+		"sinon": "^9.0.2",
+		"store-js": "2.0.4",
+		"strip-ansi": "6.0.0",
+		"stripe": "8.50.0",
+		"uniqid": "^5.2.0",
+		"universal-cookie": "4.0.3",
+		"utf8": "^3.0.0",
+		"uuid": "^7.0.2"
+	},
+	"devDependencies": {
+		"@babel/plugin-proposal-decorators": "^7.10.5",
+		"@testing-library/jest-dom": "^5.11.4",
+		"babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+		"enzyme": "^3.11.0",
+		"enzyme-adapter-react-16": "^1.15.3",
+		"enzyme-to-json": "^3.5.0",
+		"javascript-state-machine": "^3.1.0",
+		"jest": "^26.0.1",
+		"mocha": "^7.2.0",
+		"react-addons-test-utils": "^15.6.2",
+		"react-test-renderer": "^16.13.1",
+		"sequelize-cli": "^6.2.0",
+		"sequelize-mock": "^0.10.2",
+		"sequelize-test-helpers": "^1.2.2"
+	},
+	"jest": {
+		"verbose": true,
+		"collectCoverage": true,
+		"coverageReporters": [
+			"lcov"
+		],
+		"coverageDirectory": "test-coverage",
+		"coverageThreshold": {
+			"global": {
+				"branches": 0,
+				"functions": 0,
+				"lines": 0,
+				"statements": 0
+			}
+		},
+		"setupFilesAfterEnv": [
+			"<rootDir>/test/config/jest/setupTests.js"
+		],
+		"snapshotSerializers": [
+			"enzyme-to-json/serializer"
+		],
+		"collectCoverageFrom": [
+			"**/*.{js,jsx}",
+			"!**/node_modules/**",
+			"!**/vendor/**"
+		],
+		"testMatch": [
+			"<rootDir>/test/**/__tests__/**/*.{js,jsx,mjs}",
+			"<rootDir>/test/**/*.test.js"
+		],
+		"transform": {
+			"^.+\\.(js|jsx|mjs)$": "<rootDir>/test/config/jest/jest-transformer.js"
+		},
+		"transformIgnorePatterns": [
+			"[/\\\\]node_modules[/\\\\].+\\.(js|jsx|mjs)$"
+		]
+	}
+}

@@ -1,0 +1,10 @@
+.cache
+node_modules/
+logs/
+.next/
+.vscode/
+console.cmd
+.env
+coverage/
+test-coverage/
+

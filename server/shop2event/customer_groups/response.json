@@ -1,0 +1,7 @@
+{
+  "id": 239443597569284757,
+  "name": "Repeat Customers",
+  "created_at": "2020-06-29T12:15:35-04:00",
+  "updated_at": "2020-06-29T12:15:35-04:00",
+  "query": "orders_count:>1"
+}

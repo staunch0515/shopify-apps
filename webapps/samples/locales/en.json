@@ -1,0 +1,29 @@
+{
+	"Index": {
+		"heading": "Index.heading",
+		"action": "退回",
+		"account": {
+			"title": "Account Define",
+			"description": "Manage shop owner's account"
+		}
+	},
+	"Setting": {
+		"heading": "Setting.heading",
+		"action": {
+			"create": "Create",
+			"edit": "Edit"
+		},
+		"customer": {
+			"title": "Customer Account",
+			"description": "Maintain the account of customer in the Shop."
+		},
+		"voucher": {
+			"title": "Voucher Define",
+			"description": "Manage shop owner's account"
+		},
+		"event": {
+			"title": "Event Define",
+			"description": "Manage shop owner's account"
+		}
+	}
+}

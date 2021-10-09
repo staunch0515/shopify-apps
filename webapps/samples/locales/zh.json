@@ -1,0 +1,30 @@
+{
+	"Index": {
+		"heading": "Index.heading",
+		"action": "退回",
+		"content": "检查内容.",
+		"account": {
+			"title": "账户类型",
+			"description": "商铺自己的账户。"
+		}
+	},
+	"Setting": {
+		"heading": "Setting.heading",
+		"action": {
+			"create": "新建",
+			"edit": "编辑"
+		},
+		"customer": {
+			"title": "客户账户",
+			"description": "商铺自己的客户创建账户。"
+		},
+		"voucher": {
+			"title": "凭证种类",
+			"description": "凭证用户业务纪录业务发生。"
+		},
+		"event": {
+			"title": "事件类型",
+			"description": "各种业务活动的发生。 "
+		}
+	}
+}
